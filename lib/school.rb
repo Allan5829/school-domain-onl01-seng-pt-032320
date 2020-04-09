@@ -2,8 +2,8 @@ def School
   
   attr_reader :school
   
-  def initialize (school)
-    @school = school
+  def initialize (school_name)
+    @school = school_name
     @roster = {}
   end
   
