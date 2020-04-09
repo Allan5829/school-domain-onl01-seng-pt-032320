@@ -8,6 +8,10 @@ def School
   end
   
   def add_student (student, grade)
+    if !(@roster.include? (grade))
+      @roster["#{grade}"] = []
+    end 
+    @roster
   end 
   
   
