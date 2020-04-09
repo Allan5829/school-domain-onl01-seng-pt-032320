@@ -1,4 +1,4 @@
-def School
+class School
   
   attr_reader :school
   
@@ -13,8 +13,6 @@ def School
     end 
     @roster ["#{grade}"] << "#{student}"
   end 
-  
-  
   
   
   
