@@ -14,6 +14,9 @@ class School
     @roster ["#{grade}"] << "#{student}"
   end 
   
+  def roster
+    @roster
+  end 
   
   
 end
