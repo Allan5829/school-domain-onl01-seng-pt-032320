@@ -11,7 +11,7 @@ def School
     if !(@roster.include? (grade))
       @roster["#{grade}"] = []
     end 
-    @roster 
+    @roster ["#{grade}"] << "#{student}"
   end 
   
   
