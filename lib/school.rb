@@ -18,5 +18,12 @@ class School
     @roster
   end 
   
+  def grade
+    
+  end 
+  
+  def sort 
+    
+  end 
   
 end
